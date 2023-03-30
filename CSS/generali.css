@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --backVerde: #b4daa2;
+}
+
+
+.ruotareLinks{
+    transform: rotate(270deg);
+    transition: transform .5s
+}
+.ruotareIndietroLinks{
+    transform: rotate(-360deg);
+    transition: transform .5s
+}
+.ciao{
+    display: block !important;
+}

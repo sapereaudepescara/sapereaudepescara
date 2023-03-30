@@ -1,0 +1,10 @@
+.intro{
+    width: 100%;
+    text-align: center;
+    background: radial-gradient(#003380 50%, #fff 51%);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}

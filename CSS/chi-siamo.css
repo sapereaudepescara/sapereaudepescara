@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 8px;
+    margin: 20px 10px;
+}
+main h2{
+    width: 100%;
+    text-align: center;
+}
+.noi{
+    border-top: 1px #333 solid;
+    padding: 10px;
+}
+.riga{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.riga .profilo{
+    width: 20%;
+    margin: 5px 10px;
+    border: 1px solid #ddd;
+    background: red;
+    height: 45px;
+}

@@ -1,0 +1,87 @@
+/* Main */
+
+.sezioni{
+    width: -webkit-fill-available;
+    margin: 5px 20px;
+    padding: 10px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    margin: 2px 40px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    box-shadow: 5px 12px 3px #b3b3b3;
+}
+.section:hover{
+    --a: 34;
+    /*Qualcosa da mattere ingrandire l'elemento*/
+}
+.section1 .card, .section3 .card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+.section2, .section5{
+    box-shadow: -5px 12px 3px #b3b3b3;
+}
+.section2 .card, .section5 .card{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 300px;
+}
+.section1 img, .section3 img{
+    width: 40%;
+    border-radius: 20px 0 0 20px;
+}
+.section2 img, .section5 img{
+    border-radius: 0 20px 20px 0;
+}
+.info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 20px;
+    gap: 10px;
+}
+.section2 .info, .section5 .info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin: 20px;
+    gap: 10px;
+}
+.section2 p{
+    text-align: end;
+}
+.info h2{
+    font-size: 30px;
+}
+.dipiu{
+    width: 130px;
+    height: 30px;
+    padding: 2px;
+    /* joe.mazzalea2006@gmail.com */
+}
+.section4{
+    border: 2px dashed #ddd;
+    border-radius: unset;
+    box-shadow: unset;
+    margin-top: 20px;
+}
+.section4 .card{
+    padding: 10px;
+}
+.section4 h2{
+    width: 100%;
+    font-size: 25px;
+    font-family: monospace;
+    text-align: center;
+}
