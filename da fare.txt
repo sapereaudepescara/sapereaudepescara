@@ -1,0 +1,5 @@
+togliere navbar
+mettere logo e nome
+rivedere links
+creare pagine
+aggiungere sezioni alla home
