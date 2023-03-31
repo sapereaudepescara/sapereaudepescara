@@ -1,10 +1,49 @@
+@import "fonts.css";
+
+body{
+    background-color: #74b7ab;
+}
+main{
+    margin-top: 30px;
+}
 .intro{
     width: 100%;
     text-align: center;
-    background: radial-gradient(#003380 50%, #fff 51%);
+    background: radial-gradient(#003380 45%, /* #ddd 55%, */ transparent 65%);
     height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #fff;
+    font-family: Renegades;
+    font-size: 25px;
+}
+.metaverso{
+    margin-top: 10px;
+}
+.metaverso .container{
+    display: flex;
+    flex-direction: row;
+    width: -webkit-fill-available;
+}
+.metaverso .container .img{
+    width: 50%;
+    padding: 5px 15px;
+    margin: 2px;
+}
+.metaverso .container .img img{
+    width: 100%;
+}
+.testo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+}
+.testo p{
+    font-size: 30px;
+    font-family: Lastica;
+    font-weight: bold;
+    text-shadow: 3px -2px #ddd;
 }

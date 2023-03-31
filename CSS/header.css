@@ -1,6 +1,8 @@
+@import "fonts.css";
+
 header{
     width: -webkit-fill-available;
-    background: linear-gradient(0deg, #fff, var(--backVerde) 70%);
+    background: linear-gradient(0deg, transparent, var(--backVerde) 70%);
 }
 
 .header{
@@ -38,6 +40,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: Knoxx;
 }
 
 .p p:nth-child(1){
