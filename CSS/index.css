@@ -35,13 +35,31 @@ section{
     flex-direction: row-reverse;
     height: 300px;
 }
-.section1 img, .section3 img{
+
+
+.imgSU, .imgBR{
     width: 40%;
     border-radius: 20px 0 0 20px;
+    display: flex;
+    justify-content: center;
 }
-.section2 img, .section5 img{
+.imgSU img, .imgBR img{
+    height: -webkit-fill-available;
+}
+
+
+.imgPM img{
+    width: -webkit-fill-available;
+}
+.imgPM, .section5 img{
+    width: 40%;
     border-radius: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+
 .info{
     width: 60%;
     display: flex;

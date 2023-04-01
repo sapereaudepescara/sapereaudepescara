@@ -1,0 +1,36 @@
+@import "fonts.css";
+
+
+main{
+    margin-top: 20px;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-family: Copperplate;
+}
+.paragrafo{
+    display: flex;
+    flex-direction: row-reverse;
+    width: -webkit-fill-available;
+    margin: 15px;
+}
+.imgPar{
+    width: 40%;
+}
+.imgPar img{
+    width: 100%;
+}
+.testo{
+    width: 60%;
+    text-align: justify;
+    padding: 20px;
+}
+.testo ul{
+    margin-left: 40px;
+}
+
+.facebookSU, .sitoSU, .mailSU{
+    display: flex;
+    flex-direction: row;
+}
