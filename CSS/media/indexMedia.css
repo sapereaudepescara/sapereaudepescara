@@ -1,0 +1,48 @@
+@media (max-width: 1200px){
+    section{
+        box-shadow: unset;
+    }
+    .section1 .card, .section2 .card, .section3 .card, .section5 .card{
+        flex-direction: column;
+        height: unset;
+    }
+    .section2, .section5{
+        box-shadow: unset;
+    }
+    .imgSU, .imgBR{
+        width: 100%;
+    }
+    .imgSU img, .imgBR img{
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+    }
+    .imgPM{
+        justify-content: unset;
+        border-radius: unset;
+        width: unset;
+    }
+    .imgPM img{
+        border-radius: 20px 20px 0 0;
+    }
+    .info{
+        width: 100%;
+        margin: unset;
+        padding: 20px;
+    }
+    .section2 .info, .section5 .info{
+        width: 100%;
+        margin: unset;
+        padding: 20px;
+        align-items: unset;
+        text-align: justify;
+    }
+    .descrizione{
+        text-align: justify !important;
+    }
+}
+@media (max-width: 820px){
+
+}
+@media (max-width: 1200px) and (min-width: 821px){
+
+}
