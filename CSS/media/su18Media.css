@@ -10,10 +10,25 @@
     }
     .testo{
         width: 100%;
-        padding: unset;
     }
     .imgPar{
         width: 100%;
+    }
+    .informazioni div{
+        margin-bottom: 10px;
+    }
+    .informazioni a p{
+        word-wrap: break-word;
+        font-size: 14px;
+    }
+    footer{
+        height: 100px;
+        width: 100px;
+    }
+    .sitoSU a, .facebook a{
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
     }
 }
 @media (max-width: 820px){

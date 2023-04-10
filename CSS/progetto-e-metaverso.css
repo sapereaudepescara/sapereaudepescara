@@ -47,3 +47,9 @@ main{
     font-weight: bold;
     text-shadow: 3px -2px #ddd;
 }
+
+.progetto{
+    width: -webkit-fill-available;
+    margin: 0 20px;
+    border-top: #333 dashed 1px;
+}

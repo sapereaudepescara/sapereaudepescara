@@ -3,13 +3,12 @@
 .profiloChiuso{
     display: none;
 }
-.profiloAperto{
-    display: block !important;
+.profiloAperto, .icsAperta{
+    display: flex !important;
 }
 
 main{
-    padding: 8px;
-    margin: 20px 10px;
+    margin-top: 20px;
 }
 main h2{
     width: 100%;
@@ -19,14 +18,14 @@ main h2{
 }
 .noi{
     border-top: 1px #333 solid;
-    padding: 10px;
 }
 .riga{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;
+    width: -webkit-fill-available;
+    margin: 10px 20px;
 }
 .profilo{
     width: 20%;
@@ -36,6 +35,7 @@ main h2{
     padding: 10px;
     border-radius: 12px;
     transition: background-color 0.5s;
+    cursor: pointer;
 }
 .profilo:hover{
     background-color:#fec527;
@@ -56,10 +56,62 @@ main h2{
 .info p:nth-child(2){
     font-size: 15px;
 }
-
+.noiAppr{
+    width: 100%;
+}
 .profiloAppr{
+    display: none;
     position: fixed;
-    display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background: #333333c2;
+}
+.profiloAppr img{
+    height: 100%;
+    margin: 90px;
+    width: auto;
+}
+.ics{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+    z-index: 999999;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: none;
+    border-radius: 40px;
+    padding: 10px;
+    gap: 5px;
+    justify-content: center;
+    transform: unset;
+    transition: unset;
+}
+.ics div:nth-child(1){
+    width: 100%;
+    padding: 3px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    transform: rotate(45deg);
+    transition: transform ease-in-out 0.5s;
+}
+.ics div:nth-child(2){
+    width: 100%;
+    padding: 3px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    transform: rotate(-45deg);
+    transition: transform ease-in-out 0.5s;
+    top: -26%;
 }

@@ -12,12 +12,14 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
+    cursor: pointer;
 }
 .social img:nth-child(1){
     display: block;
     padding: unset;
     background: unset;
     border: unset;
+    z-index: 999;
 }
 .social img{
     display: none;
@@ -31,6 +33,57 @@
 
 .links{
     border:3;
+}
+
+.socialMedia{
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    top: 0;
+    bottom: unset;
+    width: 100vw;
+    height: 100vh;
+    margin-left: -35px;
+    border-radius: unset;
+    background: #ddd;
+    padding: 30px;
+    cursor: default;
+}
+.socialMedia img:nth-child(1){
+    z-index: unset;
+    border: 1px solid #727272;
+    padding: 5px;
+}
+.socialMedia img{
+    width: 70px;
+    height: auto;
+    display: block;
+}
+.socialMedia a{
+    cursor: pointer;
+}
+.socialMedia a, .socialMedia p{
+    margin-bottom: 18px;
+}
+.socialMedia img:nth-child(4), .socialMedia p{
+    cursor: unset;
+}
+
+
+
+.ruotareLinks{
+    transform: rotate(270deg);
+    transition: transform .5s
+}
+.ruotareIndietroLinks{
+    transform: rotate(-360deg);
+    transition: transform .5s
+}
+.ciao{
+    display: block !important;
+}
+.socialMediaAperto{
+    display: flex !important;
 }
 
 

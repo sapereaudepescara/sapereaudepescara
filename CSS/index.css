@@ -16,10 +16,6 @@ section{
     border-radius: 20px;
     box-shadow: 5px 12px 3px #b3b3b3;
 }
-.section:hover{
-    --a: 34;
-    /*Qualcosa da mattere ingrandire l'elemento*/
-}
 .section1 .card, .section3 .card{
     width: 100%;
     display: flex;
@@ -37,13 +33,13 @@ section{
 }
 
 
-.imgSU, .imgBR{
+.imgSU, .imgBR, .imgCS{
     width: 40%;
     border-radius: 20px 0 0 20px;
     display: flex;
     justify-content: center;
 }
-.imgSU img, .imgBR img{
+.imgSU img, .imgBR img, .imgCS img{
     height: -webkit-fill-available;
 }
 
@@ -51,7 +47,7 @@ section{
 .imgPM img{
     width: -webkit-fill-available;
 }
-.imgPM, .section5 img{
+.imgPM{
     width: 40%;
     border-radius: 0 20px 20px 0;
     display: flex;
@@ -89,7 +85,6 @@ section{
     width: 130px;
     height: 30px;
     padding: 2px;
-    /* joe.mazzalea2006@gmail.com */
 }
 .section4{
     border: 2px dashed #ddd;
