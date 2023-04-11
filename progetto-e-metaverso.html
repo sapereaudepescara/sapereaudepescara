@@ -18,6 +18,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
+    <!-- Vegano -->
+    <link href="https://fonts.cdnfonts.com/css/vegano" rel="stylesheet">
+
     <title>Il Metaverso</title>
 </head>
 <body>
@@ -41,7 +44,7 @@
         <div class="metaverso">
             <div class="container">
                 <div class="img">
-                    <img src="IMG/spatial01.jpg" alt="">
+                    <img src="IMG/Spatial/spatial01.jpg" alt="">
                 </div>
                 <div class="testo">
                     <p>Il nuovo modo di intendere la realta', il futuro che diventa presente</p>
@@ -52,34 +55,42 @@
             <h2>Progetto</h2>
             <div class="par1">
                 <div class="testo1">
-                    <p>La nostra idea è quella di rendere il NAO elemento cardine della lotta per l'ambiente. Proprio per questo motivo nio abbiamo scelto di scegliere come partner l'associazione Scienza Under 18.</p>
-                    <p>Tuttavia ci siamo scontrati subito con il problema di come non rendere monotona una "lezione" del NAO su come tenere pulito l'ambiente e quali sono le regole da rispettare. Perciò abbiamo avuto l'idea di utilizzare una piattaforma di raltà virtuale, Spatial. Con Spatial siamo riusciti ad integrare meglio questo proposito inscenando un'improvvisa comparsa del NAO che viene dal futuro.</p>
-                    <p>Il NAO in particolare parla di Venezia sommersa e delle conseguenze climatche sugli ecosistemi marini, e dell'Antropocene e di.....</p>
+                    <p>La nostra idea è quella di rendere il NAO elemento cardine della lotta per l'ambiente. Proprio per questo motivo nio abbiamo scelto di scegliere come partner l'associazione Scienza Under 18. Tuttavia ci siamo scontrati subito con il problema di come non rendere monotona una "lezione" del NAO su come tenere pulito l'ambiente e quali sono le regole da rispettare. Perciò abbiamo avuto l'idea di utilizzare una piattaforma di raltà virtuale, Spatial. Con Spatial siamo riusciti ad integrare meglio questo proposito inscenando un'improvvisa comparsa del NAO che viene dal futuro che parlerà dell'<a href="#collegamento1Img" id="collegamento1">Antropocene</a> e di <a href="#collegamento2Img" id="collegamento2">Venezia sommersa</a>. Durante l'incontro di Scienza Under 18 con i ragazzi delle media (locandina <a id="locandina"><i>qui</i><img src="IMG/locandinaSU.png" class="locandina"></a>) ogni partecipante sarà in grado di accedere al nostro ambiente con il quale presenteremo immagini rendendo molto più stuzzicante l'incontro</p>
                 </div>
                 <div class="img">
                     <img src="IMG/NAO/nao01.jpg" alt="">
                 </div>
             </div>
-            <div class="par2">
-                <div class="testo2">
-                    <p></p>
-                    <p></p>
+            <div class="imgs">
+                <div class="riga">
+                    <div class="img">
+                        <img src="IMG/Spatial/principale.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="IMG/Spatial/tutti.png" alt="">
+                    </div>
                 </div>
-                <div class="img">
-                    <img src="" alt="">
-                </div>
-            </div>
-
-            <div class="par3">
-                <div class="testo3">
-                    <p></p>
-                    <p></p>
-                </div>
-                <div class="img">
-                    <img src="" alt="">
+                <div class="riga">
+                    <div class="img">
+                        <img src="IMG/Spatial/venezia.png" alt="" id="collegamento1Img">
+                        <p>Venezia sommersa</p>
+                    </div>
+                    <div class="img">
+                        <img src="IMG/Spatial/antropocene.png" alt="" id="collegamento2Img">
+                        <p>Antropocene</p>
+                    </div>
                 </div>
             </div>
             
+            <script>
+                locandina = document.getElementById("locandina")
+                Locandina = document.querySelector(".locandina")
+                locandina.addEventListener("click", ()=>{
+                    Locandina.classList.toggle("locandinaAperta")
+                    locandina.classList.toggle("locandinaAAperta")
+                })
+            </script>
+
         </div>
 
         <div class="social">
@@ -108,7 +119,7 @@
                     <li>Home</li>
                 </a>
                 <a href="su18.html">
-                    <li>Scienze Under 18</li>
+                    <li>Scienza Under 18</li>
                 </a>
                 <a href="chi-siamo.html">
                     <li>Chi siamo</li>
@@ -119,6 +130,8 @@
             </ul>
         </div>
     </main>
+
+    <footer></footer>
 
     <script src="JS/links.js"></script>
     <script src="JS/navigation.js"></script>
